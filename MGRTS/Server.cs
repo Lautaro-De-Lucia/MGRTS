@@ -4,12 +4,12 @@ using Microsoft.Xna.Framework.Input;
 
 namespace MGRTS
 {
-    public class Game1 : Game
+    public class Server : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
-        public Game1()
+        public Server()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
